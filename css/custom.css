@@ -1,0 +1,207 @@
+html {
+  scroll-behavior: smooth;
+}
+ 
+body{
+	background color: #bccec0
+}
+
+#topbar{
+    background-color: #bccec0;
+}
+
+#botbar{
+    background-color: #ffe9e9;
+}
+
+#profile{
+    max-width: 50%;
+}
+
+#profile-name{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#logo{
+	margin-left:100px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+	padding:20px;
+}
+
+
+
+
+h2 {
+    font-family: 'Merriweather', sans-serif;
+	font-size: 28px;
+	margin-top:40px;
+}
+h3 {
+    font-family: 'Merriweather', sans-serif;
+	font-size: 22px;
+	padding-top:10px;
+}
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+	opacity:1.0;
+	padding:5px;
+}
+
+
+
+.projects {
+	background-color:#bccec0;
+	padding:50px;
+
+}
+
+.about {
+	background-color:#bccec0;
+	padding:50px;
+
+}
+
+
+
+.services {
+	background-color:#ffe9e9;
+	padding:50px;
+
+}
+
+
+
+
+/* unvisited link */
+.phone:link {
+  color: white;
+}
+
+/* visited link */
+.phone:visited {
+  color: black;
+}
+
+/* mouse over link */
+.phone:hover {
+  background-color: white;
+  color: #3b8fcc;
+}
+
+/* selected link */
+.phone:active {
+  color: blue;
+}
+
+i {
+	font-size:50px;
+	color: #1f5881;
+}
+
+.link {
+	color: #1f5881;
+	font-size:18px;
+}
+
+.link:hover {
+	color: #ffffff;
+
+}
+
+#plumbing{
+	padding-right:50px;
+	padding-bottom:50px;
+}
+
+
+
+#videosList {
+ max-width: 600px; 
+  overflow: hidden;
+}
+
+.video {
+  height: 330px;
+  width: 600px;
+  margin-bottom: 50px;
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+#serviceslist{
+	list-style: none;
+	font-size:20px;
+}
+
+li {
+	padding: 10px;
+}
+
+
+.img-fluid {
+    position: relative;
+    float: left;
+    height: 250px;
+}
+
+.img-fluid2 {
+	height:500px;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
