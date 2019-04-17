@@ -71,6 +71,15 @@ body{
 #logo{
 	margin-left:100px;
 }
+
+
+.fab fa-instagram, .fab fa-facebook, .fab fa-linkedin {
+	color:#ffffff;
+}
+
+
+
+
 .parallax { 
   /* The image used */
   background: url(../images/snowman_preview.jpg);
