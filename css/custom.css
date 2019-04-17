@@ -1,9 +1,11 @@
 html {
   scroll-behavior: smooth;
+height:100%
 }
  
 body{
-	background color: #bccec0
+	background-color: #bccec0;
+		height:100;
 }
 
 #topbar{
@@ -26,7 +28,72 @@ body{
 #logo{
 	margin-left:100px;
 }
+.parallax { 
+  /* The image used */
+  background-image: url(/images/snowman_preview.jpg);
+	opacity:50%;
+  /* Set a specific height */
+  height: 100%; 
 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax2 { 
+  /* The image used */
+  background-image: url(/images/mudbox_preview.jpg);
+	opacity:80%;
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax3 { 
+  /* The image used */
+  background-image: url(/images/lathed.jpg);
+	opacity:80%;
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax4 { 
+  /* The image used */
+  background-image: url(/images/spaceman.png);
+	opacity:80%;
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+#aboutme{
+	
+	padding-bottom:200px;
+}
 h1 {
     font-family: 'Merriweather', serif;
     font-size: 50px;
@@ -55,9 +122,7 @@ p{
 	padding:5px;
 }
 
-.headertitle {
-	font-size:60px;
-}
+
 
 .projects {
 	background-color:#bccec0;
@@ -80,8 +145,46 @@ p{
 }
 
 
+.container1 {
+  position: relative;
+  width: 100%;
+}
 
+.image1 {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1:hover .image {
+  opacity: 0.3;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #9dafa4;
+  color: #000000;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.text:hover{
+	color:#ffffff;
+}
 /* unvisited link */
 .phone:link {
   color: white;
@@ -101,6 +204,11 @@ p{
 /* selected link */
 .phone:active {
   color: blue;
+}
+
+a:hover{
+	background-color:#000000;
+	text-decoration: none;
 }
 
 i {
@@ -165,7 +273,7 @@ li {
 header {
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -202,3 +310,5 @@ header .overlay {
   header {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
   }
+	
+	
