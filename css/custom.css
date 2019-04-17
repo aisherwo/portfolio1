@@ -17,6 +17,11 @@ a {
 	color: #79817b
 }
 
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
 
 #topbar{
     background-color: #bccec0;
