@@ -38,7 +38,7 @@ a {
 
 .inline{
 text-decoration:none;
-color: #79817b;
+color: #79817b !important;
 
 }
 
