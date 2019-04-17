@@ -217,7 +217,8 @@ p{
 }
 
 a:hover{
-	background-color:#000000;
+	background-color:#b5b5b5;
+	opacity:50;
 	text-decoration: none;
 }
 
