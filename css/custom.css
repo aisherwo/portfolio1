@@ -426,3 +426,10 @@ header .overlay {
   100%
     opacity: 0
     transform: translateY(46px)	
+
+	
+.link {
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 10px;
+	}
+	
