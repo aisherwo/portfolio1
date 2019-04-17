@@ -73,9 +73,6 @@ body{
 }
 
 
-.fab fa-instagram, .fab fa-facebook, .fab fa-linkedin {
-	color:#ffffff;
-}
 
 
 
@@ -144,6 +141,8 @@ body{
 	padding: 15px 5px 0px 5px; 
 	
 	font-size:20px;
+	
+	color: #ffffff;
 }
 
 
@@ -286,9 +285,7 @@ i {
 	color: #1f5881;
 }
 
-.icon{
-	color:"#ffffff"
-}
+
 
 
 .link {
