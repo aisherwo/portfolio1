@@ -36,6 +36,13 @@ a {
 }
 
 
+.inline{
+text-decoration:none;
+color: #79817b;
+
+}
+
+
 .scroll{
 	font-family:'Monsterrat', sans-serif;
 	font-size:8px;
