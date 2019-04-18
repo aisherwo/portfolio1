@@ -24,3 +24,6 @@ Copyright and Plagarism Notes
 My Bootstrap 4 template is licenced under MIT License
 https://opensource.org/licenses/MIT
 https://bootsnipp.com/snippets/aMVZE Information Cards
+
+
+ALL images and videos used were created by me (Alyson Isherwood)
