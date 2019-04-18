@@ -415,7 +415,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('') black no-repeat center center scroll;
+    background: url('../images/parallax.png') black no-repeat center center scroll;
   }
 	
 	
