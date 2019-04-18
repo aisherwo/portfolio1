@@ -361,6 +361,11 @@ video::-webkit-media-controls {
 	font-size:12px;
 }
 
+#programslist2{
+	list-style: none;
+	font-size:12px;
+}
+
 li {
 	padding-top: 10px;
 	padding-bottom: 10px;
